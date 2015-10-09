@@ -1,9 +1,9 @@
-# Serenity Maven Plugin
+# Serenity Maven Plug-in
 
 
 ## Overview
 
-The available Maven plug-in
+The available goals of the Serenity Maven Plug-in are:
 
 | Goal Name   | Description |
 | ----------- | ----------- |
@@ -22,7 +22,7 @@ The example below shows the usage of the aggregate goal. Make sure the required 
 | `net.serenity-bdd.maven.plugins` | `serenity-maven-plugin`  | [![net.serenity-bdd/serenity-core](https://maven-badges.herokuapp.com/maven-central/net.serenity-bdd.maven.plugins/serenity-maven-plugin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/net.serenity-bdd.maven.plugins/serenity-maven-plugin)  |
 
 	<properties>
-		<serenity.version>#####</serenity.version>
+		<serenity-core.version>#####</serenity-core.version>
 		<serenity-maven-plugin.version>#####</serenity-maven-plugin.version>
 	</properties>
 	
@@ -34,7 +34,7 @@ The example below shows the usage of the aggregate goal. Make sure the required 
           <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-core</artifactId>
-            <version>${serenity.version}</version>
+            <version>${serenity-core.version}</version>
           </dependency>
         </dependencies>
         <executions>
@@ -51,4 +51,4 @@ The example below shows the usage of the aggregate goal. Make sure the required 
 
 ## Developers
 
-The Serenity Maven Plug-ins can only be build after the Serenity (Core) libraries are present in the (local) Maven repository.
+The Serenity Maven Plug-in can only be build after the [Serenity (Core) libraries](https://github.com/serenity-bdd/serenity-core) are present in the (local) Maven repository.
