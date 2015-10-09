@@ -10,12 +10,13 @@ import org.apache.maven.plugins.annotations.Parameter;
 import java.io.File;
 
 /**
- * This plugin deletes existing history files for Serenity for this project.
+ * A Maven plug-in that checks the Serenity test results, for Errors and Failures.
+ * The checks are done on existing output files, which can be in XML or JSON format.
  */
 @Mojo(name = "check")
 public class SerenityCheckMojo extends AbstractMojo {
     /**
-     * Aggregate reports are generated here
+     * The reports are loaded from the location where the test result reports have been stored.
      */
     @Parameter(property = "outputDirectory", defaultValue = "${project.build.directory}/site/serenity", required=true)
     public File outputDirectory;
