@@ -19,7 +19,8 @@ The example below shows the usage of the aggregate goal. Make sure the required 
 | Groups Id | Artifact Id | Version |
 | --------- | ----------- | ------- |
 | `net.serenity-bdd` | `serenity-core`     | [![net.serenity-bdd/serenity-core](https://maven-badges.herokuapp.com/maven-central/net.serenity-bdd/serenity-core/badge.svg)](https://maven-badges.herokuapp.com/maven-central/net.serenity-bdd/serenity-core)             |
-| `net.serenity-bdd` | `serenity-sample-alternative-resources`   | [![net.serenity-bdd/serenity-core](https://maven-badges.herokuapp.com/maven-central/net.serenity-bdd/serenity-sample-alternative-resources/badge.svg)](https://maven-badges.herokuapp.com/maven-central/net.serenity-bdd/serenity-sample-alternative-resources)   |
+| `net.serenity-bdd.maven.plugins` | `serenity-maven-plugin`  | [![net.serenity-bdd/serenity-core](https://maven-badges.herokuapp.com/maven-central/net.serenity-bdd.maven.plugins/serenity-maven-plugin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/net.serenity-bdd.maven.plugins/serenity-maven-plugin)  |
+
 	<properties>
 		<serenity.version>#####</serenity.version>
 		<serenity-maven-plugin.version>#####</serenity-maven-plugin.version>
