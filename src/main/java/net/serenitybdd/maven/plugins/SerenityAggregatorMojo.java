@@ -18,7 +18,7 @@ import java.io.IOException;
 import java.util.*;
 
 /**
- * Generate aggregate XML acceptance test reports.
+ * A Maven plug-in that generates aggregated XML acceptance test reports.
  */
 @Mojo(name = "aggregate", requiresProject = false)
 public class SerenityAggregatorMojo extends AbstractMojo {
